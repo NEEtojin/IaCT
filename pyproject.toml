@@ -1,0 +1,22 @@
+[project]
+name = "IaCT_by_NEEtojin"
+version = "0.0.0"
+authors = [
+	{ name="NEEtojin", email="neetojin@outlook.kr" },
+]
+description = "Infrastructure as Code Translator"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: GPL :: 3.0",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/NEEtojin/IaCT"
+Issues = "https://github.com/NEEtojin/IaCT/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
