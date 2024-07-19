@@ -11,10 +11,11 @@ def main():
 
 	parser.add_argument("-e", "--extension", type = str, nargs = 1,
 	metavar = "input file extension", default = "json",
-	help = "specify input file extension. available options are json, yaml, jinja")
+	help = "specify input file extension. available options are json, yaml, template(?)")
 
 	args = parser.parse_args()
 
+	return 0
 	
 if __name__ == "__main__":
 	main()
