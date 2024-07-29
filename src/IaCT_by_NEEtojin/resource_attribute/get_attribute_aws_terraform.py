@@ -22,6 +22,6 @@ def get_attribute(resource: str = "instance"):
                 continue
             print(argument[1])
 
-if __name__ == "__main__" :
+#if __name__ == "__main__" :
     #get_attribute()
-    get_service()
+#    get_service()
